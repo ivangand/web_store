@@ -1,0 +1,803 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.produk-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: calc(25% - 2em);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produk-item:hover {
+    transform: translateY(-5px);
+}
+
+.produk-item img {
+    width: 100%;
+    height: auto;
+}
+
+.produk-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.produk-info h3 {
+    margin: 0.5em 0;
+}
+
+.produk-info p {
+    margin: 0;
+}
+
+button {
+    background: linear-gradient(45deg, #ff6b6b, #f65e9c);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background: linear-gradient(45deg, #f65e9c, #ff6b6b);
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+} */
+
+.beli-sekarang {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff6b6b, #f65e9c);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.beli-sekarang:hover {
+    background-color: #555;
+}
+
+/* Tentang Kami */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.tentang-kami-hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.tentang-kami {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.tentang-kami-content {
+    flex: 1;
+}
+
+.tentang-kami-content h2 {
+    color: #333;
+}
+
+.tentang-kami-content p, .tentang-kami-content ul {
+    color: #666;
+}
+
+.tentang-kami-content ul {
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+.tentang-kami-image {
+    flex: 1;
+    text-align: center;
+}
+
+.tentang-kami-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tim-kami {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.tim-kami h2 {
+    color: #333;
+}
+
+.tim-kami-grid {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.tim-member {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.tim-member:hover {
+    transform: translateY(-5px);
+}
+
+.tim-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tim-member h3 {
+    margin: 0.5em 0 0.2em 0;
+    color: #333;
+}
+
+.tim-member p {
+    margin: 0;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Layanan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.layanan-hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.layanan {
+    display: flex;
+    justify-content: center;
+}
+
+.layanan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.layanan-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 2em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.layanan-item:hover {
+    transform: translateY(-5px);
+}
+
+.layanan-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.layanan-item h3 {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.layanan-item p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Kontak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.kontak-hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.kontak-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2em;
+}
+
+.kontak-form h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.kontak-info {
+    text-align: center;
+}
+
+.kontak-info h2 {
+    color: #333;
+}
+
+.kontak-info p {
+    color: #666;
+}
+
+.kontak-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kontak-info ul li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Informasi Kontak */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.kontak-hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.kontak-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-item {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.info-item h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.info-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-item ul li {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    color: #666;
+}
+
+.info-icon {
+    margin-right: 1em;
+}
+
+.info-icon img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.info-text a {
+    color: #333;
+}
+
+.map-item {
+    flex: 1;
+}
+
+.map-item h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.map-item iframe {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+}
+
+/* styles.css */
+
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.hero h1 {
+    margin-bottom: 1em;
+}
+
+.hero p {
+    margin-bottom: 2em;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.produk {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produk-item {
+    text-align: center;
+    margin: 1em;
+}
+
+.produk-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produk-info {
+    margin-top: 1em;
+}
+
+.produk-info h3 {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.produk-info .harga {
+    font-weight: bold;
+}
+
+.kontak-hero {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+.kontak-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-item {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.info-item h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.info-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-item ul li {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    color: #666;
+}
+
+.info-icon {
+    margin-right: 1em;
+}
+
+.info-icon img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.info-text a {
+    color: #333;
+}
+
+.map-item {
+    flex: 1;
+}
+
+.map-item h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.map-item iframe {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+}
+
+/* Media query untuk layar dengan lebar maksimal 768px (untuk perangkat mobile) */
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding: 1em 0;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+        margin-bottom: 1em;
+    }
+
+    .button {
+        padding: 0.8em 1.5em;
+        font-size: 0.9em;
+    }
+
+    .produk {
+        flex-direction: column;
+    }
+
+    .produk-item {
+        margin: 1em 0;
+    }
+
+    .produk-item img {
+        max-width: 100%;
+    }
+
+    .kontak-hero {
+        padding: 1em 0;
+    }
+
+    .kontak-info {
+        flex-direction: column;
+    }
+
+    .info-item {
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+
+    .map-item {
+        margin-top: 2em;
+    }
+
+    body {
+        font-size: 14px;
+        padding: 1em;
+    }
+}
+
+

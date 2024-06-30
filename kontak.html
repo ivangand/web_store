@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Toko Online Kami</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="kontak-hero">
+            <h1>Hubungi Kami</h1>
+            <p>Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau masukan.</p>
+        </section>
+        <section class="kontak-form">
+            <h2>Formulir Kontak</h2>
+            <form action="https://formspree.io/f/xzzpbbwa" method="POST">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="4" required></textarea>
+                </div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+        <section class="kontak-info">
+            <div class="info-item">
+                <h2>Informasi Kontak</h2>
+                <ul>
+                    <li>
+                        <span class="info-icon"><img src="email.png" alt="Email"></span>
+                        <span class="info-text"><a href="mailto:irfanganendra2408@gmail.com">irfanganendra2408@gmail.com</a></span>
+                    </li>
+                    <li>
+                        <span class="info-icon"><img src="phone-call.png" alt="Telepon"></span>
+                        <span class="info-text">+62 821 1844 7655</a></span>
+                    </li>
+                    <li>
+                        <span class="info-icon"><img src="gps.png" alt="Alamat"></span>
+                        <span class="info-text">Jl. Jambu Air III, Blok H2 NO 16, Kota Bandung, Indonesia</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="map-item">
+                <h2>Lokasi Kami</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.968287923159!2d106.78398121476945!3d-6.247400995478138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43442b7462d%3A0x403700bb033b370!2sYour%20Store%20Name!5e0!3m2!1sen!2sid!4v1625012345678!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Toko Online Kami</p>
+    </footer>
+</body>
+</html>
